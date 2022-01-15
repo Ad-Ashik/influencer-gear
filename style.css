@@ -243,13 +243,53 @@ hr{
     padding: 8px 30px;
     color: #FFFFFF;
 }
+
+/*
+*--------------------------------*
++             Footer             +
+*--------------------------------*
+*/
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 45px;
+}
+footer h3{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+footer p{
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+footer nav{
+    padding: 15px;
+    margin-top: 15px;
+}
+footer nav a{
+    padding: 10px;
+    color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    background: #22213c9c;
+    border-radius: 50px;
+    margin-left: 12px;
+}
+.f-icon{
+    font-size: 17px;
+}
 /*
 *--------------------------------*
 +         Responsive Part        +
 *--------------------------------*
 */
 @media only screen and (max-width: 688px){
-    nav{
+    header nav{
         display: none;
     }
     .influencer-header{
@@ -333,8 +373,23 @@ hr{
         position: relative;
         left: -140px;
     }
-
-
+/*
+*--------------------------------*
++            Footer              +
+*--------------------------------*
+*/
+    .footer{
+        width: 360px;
+        margin: 50px 68px;
+    }
+    .footer h2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
 
 
 
