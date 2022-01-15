@@ -307,4 +307,35 @@ hr{
         left: 220px;
     }
 
+/*
+*--------------------------------*
++         featured-products      +
+*--------------------------------*
+*/
+    .featured-products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .featured-p-detail{
+        text-align: center;
+        position: relative;
+        left: 41px;
+    }
+    .featured-p-detail h2{
+        font-size: 23px;
+        width: 311px;
+        line-height: 36px;
+    }
+    .featured-p-detail p{
+        width: 329px;
+    }
+    .featured-p-detail a{
+        position: relative;
+        left: -140px;
+    }
+
+
+
+
+
 }
