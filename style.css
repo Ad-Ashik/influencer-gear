@@ -207,6 +207,42 @@ hr{
     font-size: 16px;
     color: rgba(224, 44, 109, 0.87);
 }
+
+/*
+*--------------------------------*
++         featured-products      +
+*--------------------------------*
+*/
+.featured-products{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.featured-p-detail{
+    width: 610px;
+    font-family: Poppins;
+    margin-top: 35px;
+}
+.featured-p-detail h2{
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    font-weight: bold;
+}
+.featured-p-detail p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    width: 501px;
+}
+.featured-p-detail a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 70px;
+    background-color: #E02C6D;
+    padding: 8px 30px;
+    color: #FFFFFF;
+}
 /*
 *--------------------------------*
 +         Responsive Part        +
