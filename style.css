@@ -290,115 +290,6 @@ footer nav a{
 .f-icon{
     font-size: 17px;
 }
-/*
-*--------------------------------*
-+     Responsive Part mobile     +
-*--------------------------------*
-*/
-@media only screen and (max-width: 688px){
-    header nav{
-        display: none;
-    }
-    .influencer-header{
-        display: block;
-    }
-    .header-left{
-        text-align: center;
-        font-size: 16px;
-        display: block;
-    }
-    .influencer-detail{
-        text-align: center;
-    }
-    .detail-left h1{
-        font-size: 28px;
-        width: 404px;
-        line-height: 42px;
-    }
-    .detail-left p{
-        font-size: 14px;
-        line-height: 21px;
-        width: 404px;
-        text-align: center;
-    }
-    .detail-left a{
-        position: relative;
-        left: -80px;
-    }
-/*
-*--------------------------------*
-+         Company Logo           +
-*--------------------------------*
-*/
-    .company-logo{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        margin: 0;
-    }
-/*
-*--------------------------------*
-+       Popular Collection       +
-*--------------------------------*
-*/
-    .popular-collection-main{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .collection-section {
-        width: 350px;
-        margin: 0 15px 0 15px;
-        margin: 0 auto;
-    }
-    .see-more a{
-        position: relative;
-        left: 220px;
-    }
-
-/*
-*--------------------------------*
-+         featured-products      +
-*--------------------------------*
-*/
-    .featured-products{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .featured-p-detail{
-        text-align: center;
-        position: relative;
-        left: 41px;
-    }
-    .featured-p-detail h2{
-        font-size: 23px;
-        width: 311px;
-        line-height: 36px;
-    }
-    .featured-p-detail p{
-        width: 329px;
-    }
-    .featured-p-detail a{
-        position: relative;
-        left: -140px;
-    }
-/*
-*--------------------------------*
-+            Footer              +
-*--------------------------------*
-*/
-    .footer{
-        width: 360px;
-        margin: 50px 68px;
-    }
-    .footer h2{
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .footer p{
-        font-size: 12px;
-        line-height: 24px;
-    }
-
-}
 
 /*
 *--------------------------------*
@@ -493,3 +384,120 @@ footer nav a{
         line-height: 24px;
     }
 }
+
+/*
+*--------------------------------*
++     Responsive Part mobile     +
+*--------------------------------*
+*/
+@media only screen and (max-width: 688px){
+    header nav{
+        display: none;
+    }
+    .influencer-header{
+        display: block;
+    }
+    .header-left{
+        text-align: center;
+        font-size: 16px;
+        display: block;
+    }
+    .influencer-detail{
+        text-align: center;
+    }
+    .detail-img{
+        position: relative;
+        top: 25px;
+        left: 0;
+        width: 75%;
+    }
+    .detail-left h1{
+        font-size: 28px;
+        width: 404px;
+        line-height: 42px;
+    }
+    .detail-left p{
+        font-size: 14px;
+        line-height: 21px;
+        width: 404px;
+        text-align: center;
+    }
+    .detail-left a{
+        position: relative;
+        left: -80px;
+    }
+/*
+*--------------------------------*
++         Company Logo           +
+*--------------------------------*
+*/
+    .company-logo{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0;
+    }
+/*
+*--------------------------------*
++       Popular Collection       +
+*--------------------------------*
+*/
+    .popular-collection-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection-section {
+        width: 350px;
+        margin: 0 15px 0 15px;
+        margin: 0 auto;
+    }
+    .see-more a{
+        position: relative;
+        left: 220px;
+    }
+
+/*
+*--------------------------------*
++         featured-products      +
+*--------------------------------*
+*/
+    .featured-products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .featured-p-detail{
+        text-align: center;
+        position: relative;
+        left: 41px;
+    }
+    .featured-p-detail h2{
+        font-size: 23px;
+        width: 311px;
+        line-height: 36px;
+    }
+    .featured-p-detail p{
+        width: 329px;
+    }
+    .featured-p-detail a{
+        position: relative;
+        left: -140px;
+    }
+/*
+*--------------------------------*
++            Footer              +
+*--------------------------------*
+*/
+    .footer{
+        width: 360px;
+        margin: 50px 68px;
+    }
+    .footer h2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+}
+
