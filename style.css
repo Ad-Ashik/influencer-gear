@@ -7,9 +7,13 @@
 
 /*
 *--------------------------------*
-+                     +
++   responsive breck point       +
 *--------------------------------*
+Mobile- max-width: 688px;
+Tablet- max-width: 992px;
 */
+
+
 
 /* font family 
     font-family: 'Inter', sans-serif;
