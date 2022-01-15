@@ -54,7 +54,14 @@ hr{
     line-height: 36px;
     color: #3A3A3A;
 }
-
+header nav a{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    padding: 0 14px;
+}
 /*
 *--------------------------------*
 +         Influencer Detail      +
@@ -285,7 +292,7 @@ footer nav a{
 }
 /*
 *--------------------------------*
-+         Responsive Part        +
++     Responsive Part mobile     +
 *--------------------------------*
 */
 @media only screen and (max-width: 688px){
@@ -391,6 +398,98 @@ footer nav a{
         line-height: 24px;
     }
 
+}
 
+/*
+*--------------------------------*
++     Responsive Part tablet     +
+*--------------------------------*
+*/
 
+@media only screen and (max-width: 992px){
+    .header-left{
+        font-size: 16px;
+        display: block;
+    }
+    .detail-img{
+        position: relative;
+        top: 25px;
+        left: -232px;        
+        width: 75%;
+    }
+    .detail-right{
+        background-image: none;
+    }
+    .detail-left h1{
+        font-size: 28px;
+        width: 404px;
+        line-height: 42px;
+    }
+    .detail-left p{
+        font-size: 14px;
+        line-height: 21px;
+        width: 404px;
+    }
+/*
+*--------------------------------*
++         Company Logo           +
+*--------------------------------*
+*/
+    .company-logo{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0;
+    }
+/*
+*--------------------------------*
++       Popular Collection       +
+*--------------------------------*
+*/
+    .popular-collection-main{
+        display: grid;
+        grid-template-columns: 450px 450px;
+    }
+    .popular-hidden{
+        display: none;
+    }
+    .collection-section {
+        margin: 0 15px 0 60px;
+    }
+    .see-more a{
+        position: relative;
+        left: 700px;
+    }
+
+/*
+*--------------------------------*
++         featured-products      +
+*--------------------------------*
+*/
+    .featured-products{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 405px;
+        margin: 0 auto;
+    }
+    .featured-p-detail h2{
+        font-size: 23px;
+        line-height: 36px;
+    }
+/*
+*--------------------------------*
++            Footer              +
+*--------------------------------*
+*/
+    .footer{
+        width: 360px;
+        margin: 50px 68px;
+    }
+    .footer h2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer p{
+        font-size: 12px;
+        line-height: 24px;
+    }
 }
